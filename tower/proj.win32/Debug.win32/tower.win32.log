@@ -1,0 +1,24 @@
+﻿生成启动时间为 2013/12/30 星期一 16:21:35。
+     1>项目“d:\visual studio 2012\Projects\tower\tower\proj.win32\tower.win32.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files\VC\bin\CL.exe /c /I. /I..\Classes /I"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\cocos2dx" /I"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\cocos2dx\include" /I"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\cocos2dx\kazmath\include" /I"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\cocos2dx\platform\win32" /I"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\cocos2dx\platform\third_party\win32" /I"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\cocos2dx\platform\third_party\win32\OGLES" /I"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ChoseTower.cpp
+         ChoseTower.cpp
+     1>d:\visual studio 2012\projects\tower\tower\proj.win32\chosetower.h(6): warning C4091: “extern ”: 没有声明变量时忽略“GameLayer”的左侧
+     1>d:\visual studio 2012\projects\tower\tower\proj.win32\mytower.h(6): warning C4091: “extern ”: 没有声明变量时忽略“GameLayer”的左侧
+     1>d:\visual studio 2012\projects\tower\tower\proj.win32\mytower.h(7): warning C4091: “extern ”: 没有声明变量时忽略“Enemy”的左侧
+       Link:
+         F:\Program Files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\tower.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32" libcocos2d.lib opengl32.lib glew32.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\tower.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\tower.win32.lib" /MACHINE:X86 Debug.win32\tower.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\ChoseTower.obj
+         Debug.win32\Enemy.obj
+         Debug.win32\GameLayer.obj
+         Debug.win32\main.obj
+         Debug.win32\MyTower.obj
+         Debug.win32\wayPoint.obj
+         tower.win32.vcxproj -> D:\Program Files\cocos2d-x-2.2.1\cocos2d-x-2.2.1\Debug.win32\tower.win32.exe
+     1>已完成生成项目“d:\visual studio 2012\Projects\tower\tower\proj.win32\tower.win32.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.39
